@@ -2,3 +2,6 @@
 
 Репозиторий для курса "Инструменты девопса"# Multi-remote test
 # Multi-remote test
+Репозиторий для курса "Инструменты девопса"
+
+# Multi-remote test
