@@ -28,9 +28,9 @@ def index():
                 "CREATE TABLE IF NOT EXISTS visits ("
                 "id SERIAL PRIMARY KEY, visited_at TIMESTAMP DEFAULT now())"
             )
-        cur.execute("INSERT INTO visits DEFAULT VALUES")
-        cur.execute("SELECT count(*) FROM visits")
-        count = cur.fetchone()[0]
+            cur.execute("INSERT INTO visits DEFAULT VALUES")
+            cur.execute("SELECT count(*) FROM visits")
+            count = cur.fetchone()[0]
     finally:
         conn.close()
-        return f"Hello from Docker, Илюхин! Visits: {count}\n"
+    return f"Hello from Docker, Илюхин! Visits: {count}\n"
