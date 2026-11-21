@@ -1,0 +1,6 @@
+---
+app_image: "ghcr.io/theskelies/devops-ci-app"
+app_tag: "977a6c936ae1f810068090f5cfa199c7ff2c0585"
+app_container_name: "devops-ci-app"
+app_host_port: 5000
+app_internal_port: 5000
